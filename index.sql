@@ -28,3 +28,10 @@ INSERT INTO students_table (`student_id`, `first_name`, `last_name`, `age`, `gra
 SELECT * FROM students_table;;
 --Select the first_name and city of all students.
 SELECT first_name ,city FROM students_table;
+--select  Use comparison operators (=, !=, >, >=, <, <=)
+SELECT * FROM students_table WHERE grade = 'B';
+SELECT * FROM students_table WHERE city!= 'Beirut';
+SELECT * FROM students_table WHERE age>17;
+SELECT * FROM students_table WHERE age>=18;
+SELECT * FROM students_table WHERE student_id<5;
+SELECT * FROM students_table WHERE age<=16;
