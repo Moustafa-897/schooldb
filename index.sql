@@ -52,3 +52,7 @@ SELECT * FROM students_table WHERE city='Beirut' OR city='Tripoli';
 --update
 UPDATE students_table SET grade='A' WHERE student_id=4;
 UPDATE students_table SET city ='Beirut' WHERE city='Tripoli';
+
+--delete
+DELETE FROM students_table WHERE student_id=10;
+DELETE FROM students_table WHERE age <17;
