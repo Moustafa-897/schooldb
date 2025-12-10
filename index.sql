@@ -47,6 +47,8 @@ SELECT * FROM students_table WHERE age BETWEEN 17 AND 19;
 SELECT * FROM students_table WHERE age>17 AND grade='A';
 
 -- OR
-SELECT * FROM students_table WHERE city LIKE 'Beirut' OR 'Tripoli';
 SELECT * FROM students_table WHERE city='Beirut' OR city='Tripoli';
 
+--update
+UPDATE students_table SET grade='A' WHERE student_id=4;
+UPDATE students_table SET city ='Beirut' WHERE city='Tripoli';
