@@ -22,3 +22,7 @@ INSERT INTO students_table (`student_id`, `first_name`, `last_name`, `age`, `gra
 INSERT INTO students_table (`student_id`, `first_name`, `last_name`, `age`, `grade`, `city`) VALUES (9, 'Fadi', 'Hashem', 16, 'A', 'Tyre');
 
 INSERT INTO students_table (`student_id`, `first_name`, `last_name`, `age`, `grade`, `city`) VALUES (10, 'Layla', 'Hassan', 17, 'B', 'Tripoli');
+
+--select feild
+--select all feild
+SELECT * FROM students_table;;
