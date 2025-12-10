@@ -26,3 +26,5 @@ INSERT INTO students_table (`student_id`, `first_name`, `last_name`, `age`, `gra
 --select feild
 --select all feild
 SELECT * FROM students_table;;
+--Select the first_name and city of all students.
+SELECT first_name ,city FROM students_table;
