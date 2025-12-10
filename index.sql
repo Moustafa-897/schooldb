@@ -40,3 +40,7 @@ SELECT * FROM students_table WHERE age<=16;
 SELECT * FROM students_table WHERE city IS NULL;
 SELECT * FROM students_table WHERE city IS NOT NULL;
 
+--Between
+SELECT * FROM students_table WHERE age BETWEEN 17 AND 19;
+
+
