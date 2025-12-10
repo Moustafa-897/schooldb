@@ -35,3 +35,8 @@ SELECT * FROM students_table WHERE age>17;
 SELECT * FROM students_table WHERE age>=18;
 SELECT * FROM students_table WHERE student_id<5;
 SELECT * FROM students_table WHERE age<=16;
+
+--Use IS and IS NOT
+SELECT * FROM students_table WHERE city IS NULL;
+SELECT * FROM students_table WHERE city IS NOT NULL;
+
