@@ -45,3 +45,8 @@ SELECT * FROM students_table WHERE age BETWEEN 17 AND 19;
 
 -- AND
 SELECT * FROM students_table WHERE age>17 AND grade='A';
+
+-- OR
+SELECT * FROM students_table WHERE city LIKE 'Beirut' OR 'Tripoli';
+SELECT * FROM students_table WHERE city='Beirut' OR city='Tripoli';
+
